@@ -1,13 +1,15 @@
-// if you want to use a module like angular on a per-module basis (var angular), you must use the export
-//  value within browserify-shim; since angular attaches itself to the window, the export lets your module
-//  know to check window object for angular
-//var angular = require('angular');
-//require('angular-route');
-//var d3 = require('d3');
-//var nv = require('nvd3');
-
+// note that jquery isn't available in any way, shape or form, because it's a commonjs
+//  module and didn't have to expose a window value for any plugins or anything
+//console.log($);
 console.log(window.jQuery);
+console.log(window.$);
+
+// angular is available, because it exports to window.angular
 console.log(angular);
 
+// d3 is available, because we had to attach it to window.d3 in order for nvd3 to attach itself
+//  to d3. otherwise, d3 would be in the same situation as jquery
 console.log(d3);
+
+// nvd3 is also available, because it's not commonjs compatible and simply attaches itself to window.nv
 console.log(window.nv);

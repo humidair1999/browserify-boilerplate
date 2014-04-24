@@ -2,7 +2,7 @@
 //  can latch onto
 window.d3 = require("d3");
 
-// however, nv3d is not commonjs-compatible, so we had to expose d3 as window.d3 in order for nvd3
+// however, nv3d (1.1.15b) is not commonjs-compatible, so we had to expose d3 as window.d3 in order for nvd3
 //  to be able to find it
 require("../bower_components/nvd3/nv.d3.js");
 
