@@ -1,0 +1,42 @@
+{
+  "name": "nodejsSimpleBoilerplate",
+  "version": "0.1.0",
+  "author": "J. Ky Marsh <jkymarsh@gmail.com>",
+  "description": "a simple node/express static file server with h5bp",
+  "private": true,
+  "scripts": {
+    "start": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkymarsh/nodejsSimpleBoilerplate.git"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "simple"
+  ],
+  "engines": {
+    "node": ">=0.10.26"
+  },
+  "dependencies": {
+    "express": "^3.5.1"
+  },
+  "devDependencies": {
+    "grunt": "0.4.4",
+    "grunt-run": "0.2.1",
+    "brfs": "1.0.1"
+  },
+  "browserify": {
+    "transform": [
+      "brfs"
+    ]
+  },
+  "browser": {
+    "jquery": "./bower_components/jquery/index.js",
+    "angular": "./shims/angular.js",
+    "angular-route": "./shims/angular-route.js",
+    "d3": "./bower_components/d3/d3.js",
+    "nvd3": "./shims/nvd3.js"
+  }
+}
