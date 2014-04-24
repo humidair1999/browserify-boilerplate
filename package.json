@@ -1,20 +1,20 @@
 {
-  "name": "nodejsSimpleBoilerplate",
+  "name": "browserify-boilerplate",
   "version": "0.1.0",
   "author": "J. Ky Marsh <jkymarsh@gmail.com>",
-  "description": "a simple node/express static file server with h5bp",
+  "description": "a boilerplate for vanilla browserify, intended to showcase and explain usage",
   "private": true,
   "scripts": {
-    "start": "node server"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jkymarsh/nodejsSimpleBoilerplate.git"
+    "url": "https://github.com/jkymarsh/browserify-boilerplate.git"
   },
   "keywords": [
-    "static",
-    "server",
-    "simple"
+    "browserify",
+    "boilerplate",
+    "commonjs"
   ],
   "engines": {
     "node": ">=0.10.26"

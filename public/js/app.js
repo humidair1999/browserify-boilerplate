@@ -17,11 +17,11 @@ var nvd3 = require('nvd3');
 
 // all our libraries should exist and be available!
 
-console.log($);
-console.log(angular);
+console.log('jquery: ', $);
+console.log('angular: ', angular);
 
-console.log(d3);
-console.log(nvd3);
+console.log('d3: ', d3);
+console.log('nvd3: ', nvd3);
 
 var myApp = angular.module('myApp', ['ngRoute']);
 

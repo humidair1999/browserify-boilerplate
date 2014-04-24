@@ -1,6 +1,6 @@
 {
-  "name": "gruntBrowserifyAngular01",
-  "version": "0.0.0",
+  "name": "browserify-boilerplate",
+  "version": "0.1.0",
   "authors": [
     "J. Ky Marsh <jkymarsh@gmail.com>"
   ],
