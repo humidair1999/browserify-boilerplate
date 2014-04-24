@@ -25,4 +25,4 @@ build/Release
 node_modules
 bower_components
 
-public/js/built
+public/js/built/*.js
