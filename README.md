@@ -32,7 +32,7 @@ With more to come! I'd take suggestions, as well.
 
 1. Clone this repo
 2. Install `browserify` globally with `npm install -g browserify`
-3. Install grunt globally with `npm install -g grunt-cli`
+3. Install `grunt` globally with `npm install -g grunt-cli`
 4. `npm install` and `bower install` (have `npm` and `bower` installed, obviously)
 5. Run the default grunt task with simply `grunt`
 6. Start the node server with `node server.js` and navigate to `localhost:3000`
@@ -43,6 +43,6 @@ With more to come! I'd take suggestions, as well.
 ###### What's coming?
 
 - More examples (jQuery plugin, jQueryUI, maybe some AMD examples?)
-- Remove grunt and utilize `npm run` scripts instead
+- Remove `grunt` and utilize `npm run` scripts instead
 - Showcase `browserify` `transform`, such as `brfs`
 - Testing integration(?)
